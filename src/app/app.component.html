@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="navbar-nav nav-height">
+    <img src="assets/cloudy.png" class="cloudy-css">
+    <h2 class="nav-text"> Weather App </h2>
+    <div class="nav-width" *ngIf="currentUser">
+      <a class="nav-item nav-link home-btn" routerLink="/">Home</a>
+      <a class="nav-item nav-link logout-btn" (click)="logout()">Logout</a>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 offset-sm-3">
+        <app-alert></app-alert>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

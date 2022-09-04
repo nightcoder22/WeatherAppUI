@@ -1,0 +1,29 @@
+.nav-height{
+  height: 100px;
+  display: contents;
+}
+
+.cloudy-css {
+  margin-left: 50px;
+}
+
+.nav-width{
+  display: inline-flex;
+  width: 80%;
+}
+
+.logout-btn{
+  position: absolute;
+  right: 80px;
+  cursor: pointer;
+}
+
+.home-btn {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-text{
+  color: white;
+  margin-left: 20px;
+}
